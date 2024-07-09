@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RTLLibrary'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of RTLLibrary.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ s.preserve_paths = "IMPORTANT.txt","RTLLibrary/frameworks/*.framework"  #Any fil
   #   'RTLLibrary' => ['RTLLibrary/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'RTLLibrary/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'UIMap'
   s.ios.vendored_frameworks = 'RTLLibrary/frameworks/RTKOTASDK.framework', 'RTLLibrary/frameworks/RTKLEFoundation.framework' # 依赖的第三方/自己的framework
   # s.frameworks = 'UIKit', 'MapKit'

@@ -2,5 +2,4 @@ use_frameworks!
 target 'RTLLibrary_Tests' do
   pod 'RTLLibrary', :path => '../'
   
-  
 end

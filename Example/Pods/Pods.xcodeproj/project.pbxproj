@@ -7,17 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FFCD8D5F545574637A9BE18E9ED1FA9 /* RTLLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D9CD2C5F4455589F2F5FD98E34A3996E /* RTLLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31FB621A04CE1FF0BD59C6F7B5167574 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */; };
 		5ED06385FEA28B1B50B7F22506522864 /* Pods-RTLLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EE5B43ECA4BF200DF17721A3CF7460 /* Pods-RTLLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A71A2BC7FDDEB9DA6C9DE4DC5DC0C0F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8DA10A3DF2EBD04CCE83E40C1F60C5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A3B461EF925DC0F90BE9C33DFFBE9801 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE68736051E2BAA276CB28CA64776E0 /* ReplaceMe.m */; };
+		8E54FCAEC98046B8C038D1E1120B5837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		90E0302D1735D4A7618CB56823A7A25C /* RTLLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F08CF7E6594EC1996B05CC9CBC40F3FF /* RTLLibrary-dummy.m */; };
+		B748066529702505EAB90BBC84633D66 /* RTLLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A5ED58236F4130A531DE3520EC5AB4 /* RTLLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D24B5F5623B6D7DE93FAFCF079F82973 /* Pods-RTLLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA165E9E147A615AFB8135E026617D50 /* Pods-RTLLibrary_Tests-dummy.m */; };
-		DC5A8639FD507D1B80553B6322B02859 /* RTLLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 213D15C77706810FF5E3D1419A67F90A /* RTLLibrary-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		126B51534D5C2D0D78556A07DC92D6B1 /* PBXContainerItemProxy */ = {
+		193ACDE2D48710371094A16A3290E12D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,40 +27,40 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0091EA3568589972B6861E1CAE492F60 /* RTKOTASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKOTASDK.framework; path = RTLLibrary/frameworks/RTKOTASDK.framework; sourceTree = "<group>"; };
 		0258EFCE59A8FBE6B422AA2395C61429 /* Pods-RTLLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTLLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		07E7355F4CB02C0B05C6A73FF33C6FE6 /* RTKLEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKLEFoundation.framework; path = RTLLibrary/frameworks/RTKLEFoundation.framework; sourceTree = "<group>"; };
 		1B2E9CFA19515C88B84B2DCD33B29B81 /* Pods-RTLLibrary_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTLLibrary_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		213D15C77706810FF5E3D1419A67F90A /* RTLLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTLLibrary-dummy.m"; sourceTree = "<group>"; };
-		4CE68736051E2BAA276CB28CA64776E0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RTLLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		2548F927DD2416CC0854CCB1C1F50433 /* RTLLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTLLibrary.modulemap; sourceTree = "<group>"; };
+		6155570D1E57A876EEDDC53D3E98BE14 /* RTLLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RTLLibrary-Info.plist"; sourceTree = "<group>"; };
 		63EE5B43ECA4BF200DF17721A3CF7460 /* Pods-RTLLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTLLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
-		722E6D75EA81E2AD86D287B0E0F6073D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73F097CB202F056CE7484F9457207580 /* RTLLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTLLibrary.debug.xcconfig; sourceTree = "<group>"; };
-		76DC48CD8BDF80BDD6C8D2330CE642A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		78F5F24D1806161429F7E303D56824C1 /* RTKOTASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKOTASDK.framework; path = RTLLibrary/frameworks/RTKOTASDK.framework; sourceTree = "<group>"; };
-		82C77A2E43CBD35946D5D4C083C68E88 /* RTLLibrary-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RTLLibrary-Info.plist"; sourceTree = "<group>"; };
-		877417E6B34DF8C155A985D4DCCCBB74 /* RTLLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTLLibrary.release.xcconfig; sourceTree = "<group>"; };
+		738E4D68BE6C4CACB3BE814B724FD58F /* RTKLEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKLEFoundation.framework; path = RTLLibrary/frameworks/RTKLEFoundation.framework; sourceTree = "<group>"; };
+		81B2FE2CD165497A3832FA0CCB715A3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		883E7DC2957B49FD816483364887AA71 /* Pods-RTLLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RTLLibrary_Tests"; path = Pods_RTLLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC038921F614979F130641C7F9301A0 /* Pods-RTLLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTLLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8CE77C7C8A19DBD534802BCCFB9576C5 /* Pods-RTLLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTLLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		9CA9E4F519E7E729A179F917A7E1CF68 /* Pods-RTLLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTLLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2C441B51A09F55942647CEFAE53F531 /* RTLLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RTLLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7A5ED58236F4130A531DE3520EC5AB4 /* RTLLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-umbrella.h"; sourceTree = "<group>"; };
+		A7EAD27B9973FC1A6E8FFF30F204FD28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B95840B944753A93FE5E402B8A2F42D8 /* RTLLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTLLibrary; path = RTLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19D1CD1FEA7506F0DC07CD36BD6ECAE /* RTLLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-prefix.pch"; sourceTree = "<group>"; };
-		D9CD2C5F4455589F2F5FD98E34A3996E /* RTLLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-umbrella.h"; sourceTree = "<group>"; };
+		BD009067F3C75496F9B9512E6D3C83C1 /* RTLLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RTLLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C01472D9B5503CE7DFD565C80081CC95 /* RTLLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTLLibrary.debug.xcconfig; sourceTree = "<group>"; };
+		C45BF3FFF72A03879A9F3A6A81A77520 /* RTLLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-prefix.pch"; sourceTree = "<group>"; };
+		D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RTLLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		E4417BA3BDB25FB89847AEABAE0813DD /* Pods-RTLLibrary_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTLLibrary_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EA165E9E147A615AFB8135E026617D50 /* Pods-RTLLibrary_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTLLibrary_Tests-dummy.m"; sourceTree = "<group>"; };
 		EA7764F7F6DFD9E8D45E37D8649A0F62 /* Pods-RTLLibrary_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTLLibrary_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FAC5F0C5910E77BA8828DA4EF5AB4CE1 /* RTLLibrary.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RTLLibrary.modulemap; sourceTree = "<group>"; };
+		F08CF7E6594EC1996B05CC9CBC40F3FF /* RTLLibrary-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTLLibrary-dummy.m"; sourceTree = "<group>"; };
+		FD17A119131A073DA59E5BF4A9BE5E77 /* RTLLibrary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTLLibrary.release.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A3CBC0E0D67FF49069329CEC64ACD462 /* Frameworks */ = {
+		0B94C25D163C9373E98FA90824C8A0A4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A71A2BC7FDDEB9DA6C9DE4DC5DC0C0F /* Foundation.framework in Frameworks */,
+				8E54FCAEC98046B8C038D1E1120B5837 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,19 +84,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		12AD4A73C96A477EB02F47342763BEBD /* Support Files */ = {
+		2CB0AAA9681109BDFBDD040D103D5FE7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FAC5F0C5910E77BA8828DA4EF5AB4CE1 /* RTLLibrary.modulemap */,
-				213D15C77706810FF5E3D1419A67F90A /* RTLLibrary-dummy.m */,
-				82C77A2E43CBD35946D5D4C083C68E88 /* RTLLibrary-Info.plist */,
-				D19D1CD1FEA7506F0DC07CD36BD6ECAE /* RTLLibrary-prefix.pch */,
-				D9CD2C5F4455589F2F5FD98E34A3996E /* RTLLibrary-umbrella.h */,
-				73F097CB202F056CE7484F9457207580 /* RTLLibrary.debug.xcconfig */,
-				877417E6B34DF8C155A985D4DCCCBB74 /* RTLLibrary.release.xcconfig */,
+				738E4D68BE6C4CACB3BE814B724FD58F /* RTKLEFoundation.framework */,
+				0091EA3568589972B6861E1CAE492F60 /* RTKOTASDK.framework */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RTLLibrary";
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		400781B33CCCE5B7CE325C8D2C9BFE20 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81B2FE2CD165497A3832FA0CCB715A3B /* LICENSE */,
+				A7EAD27B9973FC1A6E8FFF30F204FD28 /* README.md */,
+				BD009067F3C75496F9B9512E6D3C83C1 /* RTLLibrary.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		42C3B3313CC6F1E821894545993766FD /* Pods-RTLLibrary_Tests */ = {
@@ -124,43 +128,39 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5D6501EDBA7E51D6325CB1416D529C81 /* Frameworks */ = {
+		8DD280006F1ABE2D1DAA84C5C1483CCD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				07E7355F4CB02C0B05C6A73FF33C6FE6 /* RTKLEFoundation.framework */,
-				78F5F24D1806161429F7E303D56824C1 /* RTKOTASDK.framework */,
+				96D5187C89CD2549F6B326ACC3C4367F /* RTLLibrary */,
 			);
-			name = Frameworks;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		63EB88DD704D5BD686D687333FB42C04 /* Pod */ = {
+		96D5187C89CD2549F6B326ACC3C4367F /* RTLLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				722E6D75EA81E2AD86D287B0E0F6073D /* LICENSE */,
-				76DC48CD8BDF80BDD6C8D2330CE642A6 /* README.md */,
-				A2C441B51A09F55942647CEFAE53F531 /* RTLLibrary.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		A048BD983D6430281305ABB4309631BC /* RTLLibrary */ = {
-			isa = PBXGroup;
-			children = (
-				4CE68736051E2BAA276CB28CA64776E0 /* ReplaceMe.m */,
-				5D6501EDBA7E51D6325CB1416D529C81 /* Frameworks */,
-				63EB88DD704D5BD686D687333FB42C04 /* Pod */,
-				12AD4A73C96A477EB02F47342763BEBD /* Support Files */,
+				D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */,
+				2CB0AAA9681109BDFBDD040D103D5FE7 /* Frameworks */,
+				400781B33CCCE5B7CE325C8D2C9BFE20 /* Pod */,
+				A1D114E8852BF6A8A1091897D2AB3FAA /* Support Files */,
 			);
 			name = RTLLibrary;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		B9EEDC3EF4D936A805C8507F89D09ED9 /* Development Pods */ = {
+		A1D114E8852BF6A8A1091897D2AB3FAA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A048BD983D6430281305ABB4309631BC /* RTLLibrary */,
+				2548F927DD2416CC0854CCB1C1F50433 /* RTLLibrary.modulemap */,
+				F08CF7E6594EC1996B05CC9CBC40F3FF /* RTLLibrary-dummy.m */,
+				6155570D1E57A876EEDDC53D3E98BE14 /* RTLLibrary-Info.plist */,
+				C45BF3FFF72A03879A9F3A6A81A77520 /* RTLLibrary-prefix.pch */,
+				A7A5ED58236F4130A531DE3520EC5AB4 /* RTLLibrary-umbrella.h */,
+				C01472D9B5503CE7DFD565C80081CC95 /* RTLLibrary.debug.xcconfig */,
+				FD17A119131A073DA59E5BF4A9BE5E77 /* RTLLibrary.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RTLLibrary";
 			sourceTree = "<group>";
 		};
 		C959E80712A50AEB6D408BDC1FE6B977 /* Targets Support Files */ = {
@@ -175,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				B9EEDC3EF4D936A805C8507F89D09ED9 /* Development Pods */,
+				8DD280006F1ABE2D1DAA84C5C1483CCD /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				04214ADA4C192254ACB7B909E046F2C1 /* Products */,
 				C959E80712A50AEB6D408BDC1FE6B977 /* Targets Support Files */,
@@ -193,19 +193,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		7E0591C16780BA94190DFF05ED532853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B748066529702505EAB90BBC84633D66 /* RTLLibrary-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CE8CFFFC674757127F09AF3DF4089F36 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5ED06385FEA28B1B50B7F22506522864 /* Pods-RTLLibrary_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D61DD413F57D16CE8D18AACD3A2B0D38 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2FFCD8D5F545574637A9BE18E9ED1FA9 /* RTLLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +224,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				CD3ACAB8659EA76EE938C45B96C099C7 /* PBXTargetDependency */,
+				AB6B9EC2F9EE08B5ECBE8368D5E05E91 /* PBXTargetDependency */,
 			);
 			name = "Pods-RTLLibrary_Tests";
 			productName = Pods_RTLLibrary_Tests;
@@ -233,12 +233,12 @@
 		};
 		FECB5CF2FE958E8F353E9CFB959EBCCE /* RTLLibrary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A9AC48B7B846F457EA77C40959AF530 /* Build configuration list for PBXNativeTarget "RTLLibrary" */;
+			buildConfigurationList = 36B9C93361813DBCBB8E5AFB39BD6B7B /* Build configuration list for PBXNativeTarget "RTLLibrary" */;
 			buildPhases = (
-				D61DD413F57D16CE8D18AACD3A2B0D38 /* Headers */,
-				B662BED509610CAAAF59D154E66501EC /* Sources */,
-				A3CBC0E0D67FF49069329CEC64ACD462 /* Frameworks */,
-				2C2337DD30511CDD1DFAF21587181381 /* Resources */,
+				7E0591C16780BA94190DFF05ED532853 /* Headers */,
+				1FD09AC2828E485A2C8E0BBD4E380977 /* Sources */,
+				0B94C25D163C9373E98FA90824C8A0A4 /* Frameworks */,
+				5058932897C15637E1EFF290D7872BDE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -278,7 +278,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C2337DD30511CDD1DFAF21587181381 /* Resources */ = {
+		5058932897C15637E1EFF290D7872BDE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,12 +295,12 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B662BED509610CAAAF59D154E66501EC /* Sources */ = {
+		1FD09AC2828E485A2C8E0BBD4E380977 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3B461EF925DC0F90BE9C33DFFBE9801 /* ReplaceMe.m in Sources */,
-				DC5A8639FD507D1B80553B6322B02859 /* RTLLibrary-dummy.m in Sources */,
+				31FB621A04CE1FF0BD59C6F7B5167574 /* ReplaceMe.m in Sources */,
+				90E0302D1735D4A7618CB56823A7A25C /* RTLLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,15 +315,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CD3ACAB8659EA76EE938C45B96C099C7 /* PBXTargetDependency */ = {
+		AB6B9EC2F9EE08B5ECBE8368D5E05E91 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RTLLibrary;
 			target = FECB5CF2FE958E8F353E9CFB959EBCCE /* RTLLibrary */;
-			targetProxy = 126B51534D5C2D0D78556A07DC92D6B1 /* PBXContainerItemProxy */;
+			targetProxy = 193ACDE2D48710371094A16A3290E12D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0D578660B47D66C388AFA3869C144563 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD17A119131A073DA59E5BF4A9BE5E77 /* RTLLibrary.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RTLLibrary/RTLLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTLLibrary/RTLLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTLLibrary/RTLLibrary.modulemap";
+				PRODUCT_MODULE_NAME = RTLLibrary;
+				PRODUCT_NAME = RTLLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		1D0EAB686C8AEB8034961ABF006C9A9A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0258EFCE59A8FBE6B422AA2395C61429 /* Pods-RTLLibrary_Tests.release.xcconfig */;
@@ -425,6 +458,38 @@
 			};
 			name = Debug;
 		};
+		4390CB695B12B13AA77F5175D5D2746E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C01472D9B5503CE7DFD565C80081CC95 /* RTLLibrary.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RTLLibrary/RTLLibrary-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RTLLibrary/RTLLibrary-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RTLLibrary/RTLLibrary.modulemap";
+				PRODUCT_MODULE_NAME = RTLLibrary;
+				PRODUCT_NAME = RTLLibrary;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		46D300456A418D10103CA73A9A139AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EA7764F7F6DFD9E8D45E37D8649A0F62 /* Pods-RTLLibrary_Tests.debug.xcconfig */;
@@ -514,81 +579,24 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		6848760F73C44A3F912B9C2C6999AF21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 877417E6B34DF8C155A985D4DCCCBB74 /* RTLLibrary.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RTLLibrary/RTLLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RTLLibrary/RTLLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RTLLibrary/RTLLibrary.modulemap";
-				PRODUCT_MODULE_NAME = RTLLibrary;
-				PRODUCT_NAME = RTLLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B6FF84654F6807B7C0BFC0D15CC60D18 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73F097CB202F056CE7484F9457207580 /* RTLLibrary.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RTLLibrary/RTLLibrary-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RTLLibrary/RTLLibrary-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RTLLibrary/RTLLibrary.modulemap";
-				PRODUCT_MODULE_NAME = RTLLibrary;
-				PRODUCT_NAME = RTLLibrary;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		36B9C93361813DBCBB8E5AFB39BD6B7B /* Build configuration list for PBXNativeTarget "RTLLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4390CB695B12B13AA77F5175D5D2746E /* Debug */,
+				0D578660B47D66C388AFA3869C144563 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		441402208661B383399CB9AF1B18DCE5 /* Build configuration list for PBXNativeTarget "Pods-RTLLibrary_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -603,15 +611,6 @@
 			buildConfigurations = (
 				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
 				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6A9AC48B7B846F457EA77C40959AF530 /* Build configuration list for PBXNativeTarget "RTLLibrary" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B6FF84654F6807B7C0BFC0D15CC60D18 /* Debug */,
-				6848760F73C44A3F912B9C2C6999AF21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

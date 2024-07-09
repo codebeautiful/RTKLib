@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "rtllibrary.h"
 
 FOUNDATION_EXPORT double RTLLibraryVersionNumber;
 FOUNDATION_EXPORT const unsigned char RTLLibraryVersionString[];
