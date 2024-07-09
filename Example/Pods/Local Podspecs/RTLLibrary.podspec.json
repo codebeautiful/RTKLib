@@ -1,6 +1,6 @@
 {
   "name": "RTLLibrary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of RTLLibrary.",
   "description": "TODO: Add long description of the pod here.",
   "pod_target_xcconfig": {
@@ -19,7 +19,7 @@
   },
   "source": {
     "git": "https://github.com/codebeautiful/RTKLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "preserve_paths": [
     "IMPORTANT.txt",

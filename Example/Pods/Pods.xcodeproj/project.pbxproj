@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		31FB621A04CE1FF0BD59C6F7B5167574 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */; };
 		5ED06385FEA28B1B50B7F22506522864 /* Pods-RTLLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 63EE5B43ECA4BF200DF17721A3CF7460 /* Pods-RTLLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		652B81212234FB92E276B2EB49F9EB4E /* rtllibrary.h in Headers */ = {isa = PBXBuildFile; fileRef = 788FBEC8FA3A451EAB815269D338005E /* rtllibrary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8DA10A3DF2EBD04CCE83E40C1F60C5D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		8E54FCAEC98046B8C038D1E1120B5837 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		90E0302D1735D4A7618CB56823A7A25C /* RTLLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F08CF7E6594EC1996B05CC9CBC40F3FF /* RTLLibrary-dummy.m */; };
@@ -35,16 +36,17 @@
 		63EE5B43ECA4BF200DF17721A3CF7460 /* Pods-RTLLibrary_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTLLibrary_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		738E4D68BE6C4CACB3BE814B724FD58F /* RTKLEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RTKLEFoundation.framework; path = RTLLibrary/frameworks/RTKLEFoundation.framework; sourceTree = "<group>"; };
-		81B2FE2CD165497A3832FA0CCB715A3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		788FBEC8FA3A451EAB815269D338005E /* rtllibrary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rtllibrary.h; path = RTLLibrary/Classes/rtllibrary.h; sourceTree = "<group>"; };
+		81B2FE2CD165497A3832FA0CCB715A3B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		883E7DC2957B49FD816483364887AA71 /* Pods-RTLLibrary_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RTLLibrary_Tests"; path = Pods_RTLLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC038921F614979F130641C7F9301A0 /* Pods-RTLLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTLLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8CE77C7C8A19DBD534802BCCFB9576C5 /* Pods-RTLLibrary_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTLLibrary_Tests-Info.plist"; sourceTree = "<group>"; };
 		9CA9E4F519E7E729A179F917A7E1CF68 /* Pods-RTLLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RTLLibrary_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7A5ED58236F4130A531DE3520EC5AB4 /* RTLLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-umbrella.h"; sourceTree = "<group>"; };
-		A7EAD27B9973FC1A6E8FFF30F204FD28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A7EAD27B9973FC1A6E8FFF30F204FD28 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B95840B944753A93FE5E402B8A2F42D8 /* RTLLibrary */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTLLibrary; path = RTLLibrary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD009067F3C75496F9B9512E6D3C83C1 /* RTLLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RTLLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD009067F3C75496F9B9512E6D3C83C1 /* RTLLibrary.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RTLLibrary.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C01472D9B5503CE7DFD565C80081CC95 /* RTLLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTLLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		C45BF3FFF72A03879A9F3A6A81A77520 /* RTLLibrary-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTLLibrary-prefix.pch"; sourceTree = "<group>"; };
 		D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RTLLibrary/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				D21223577CC5CA619A11318902B32155 /* ReplaceMe.m */,
+				788FBEC8FA3A451EAB815269D338005E /* rtllibrary.h */,
 				2CB0AAA9681109BDFBDD040D103D5FE7 /* Frameworks */,
 				400781B33CCCE5B7CE325C8D2C9BFE20 /* Pod */,
 				A1D114E8852BF6A8A1091897D2AB3FAA /* Support Files */,
@@ -197,6 +200,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652B81212234FB92E276B2EB49F9EB4E /* rtllibrary.h in Headers */,
 				B748066529702505EAB90BBC84633D66 /* RTLLibrary-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,7 +583,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
