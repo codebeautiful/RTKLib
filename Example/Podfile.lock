@@ -1,0 +1,16 @@
+PODS:
+  - RTLLibrary (0.1.0)
+
+DEPENDENCIES:
+  - RTLLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  RTLLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTLLibrary: c547b447c7b9fee3c9c90e6575b86d7a1b73ba12
+
+PODFILE CHECKSUM: ec876aef7c68846f695a5da0182de7da910fb161
+
+COCOAPODS: 1.15.2
